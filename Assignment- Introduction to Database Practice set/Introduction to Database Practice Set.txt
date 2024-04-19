@@ -1,0 +1,25 @@
+Ans 1: A database is a systematically arranged repository that stores data in such forms especially for the sake of easy search, retrieval, and management. To illustrate this, imagine that a company has a data repository, where it saves information about its employees, such as their names, addresses, and salaries. What we need most is databases to properly process, make accessible and protect big datasets, to make sure there is data integrity, security and easy access at the same time by multiple users.
+Ans 2: A file-based storage system is a technique for storing data in files by pointing the individual files on the file system of the computer. With this structure, the individual program components are built around the file for holding the data. The major obstacles are data duplication, incongruity, problem with sharing the data of different applications, absence of data coherence, and insufficient security measures.
+Ans 3:LDM is the abbreviation of Database Management System. This are the software based systems used to perform tasks like defining, developing, administering and protecting the databases. The purpose of DBMS was to meet increasing demands for the completeness of necessary data, the integrity of data, security and concurrency control, and also to reduce the complexity of data retrieval using data independence.
+Ans 4: Challenges of file-based storage system tackled by DBMS include:
+
+- Data redundancy and inconsistency: DBMS saves a lot of time that would otherwise be spent in verification and updating of similar data and also ensure the data validity through the normalization.
+
+- Data isolation and integrity: Data bases management system provides a wire for data integrity constraints maintenance and transactions execution after every change.
+
+- Concurrent access and security: DBMS ensures concurrency control providing multiple users delegated access to data by means of authentication and authorization.
+
+- Atomicity, consistency, isolation, and durability (ACID properties): DBMS commits to make sure that the database transactions are fully processed reliably and adhering to the properties indicated forward.
+
+- Data independence: DBMS causes data removal from applications that access it and implements a layer of abstraction between apps and the data, making maintenance and application development easier.
+Ans 5: Different types of classification in DBMS include:
+   - Based on data model: Hierarchical, Network, Relational, Object-oriented, Object-relational.
+   - Based on the number of users: Single-user, Multi-user.
+   - Based on location of data: Centralized, Distributed.
+   - Based on usage: Operational, Analytical.
+Ans 6: Data modeling is the process of creating a data model for an information system. It helps in understanding the structure of the data and its relationships. Types of data modeling include conceptual modeling, which focuses on the high-level concepts and relationships between data entities, and logical modeling, which involves creating a detailed representation of the data using a specific data model such as Entity-Relationship Diagrams (ERD) or Unified Modeling Language (UML). Data modeling is significant because it helps in designing databases that accurately represent the real-world entities and their relationships, leading to better database performance, data integrity, and easier maintenance.
+Ans 7: The three-schema architecture consists of three levels: external schema, conceptual schema, and internal schema. 
+   - External schema: Represents the views of different users of the database. It provides a customized view of the database for each user, hiding unnecessary details and providing security.
+   - Conceptual schema: Represents the entire database from a logical perspective. It defines the structure of the entire database, including all entities, relationships, and constraints.
+   - Internal schema: Represents the physical storage structure of the database. It defines how data is stored and accessed on the underlying storage devices.
+   Advantages of the three-schema architecture include data independence, allowing changes in one schema level without affecting the other levels, enhanced security through the external schema, and improved conceptual organization of the database.
